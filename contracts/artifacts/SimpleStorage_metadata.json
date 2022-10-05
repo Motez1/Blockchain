@@ -32,6 +32,32 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "setBalance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -73,11 +99,11 @@
 	},
 	"sources": {
 		"contracts/SimpleStorage.sol": {
-			"keccak256": "0x06465a9aaf799c0e8e72ad33d6885977888a10b6fe504145bfc3a5198727a76b",
+			"keccak256": "0x1892a4f600e75898eb0316fb69e694b15b010a12610ebbcd850013937c219022",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3093b3101f050097d9c3487b1ed57dc12eb2e6504e188738516fff1ed0c28907",
-				"dweb:/ipfs/QmZkrgZMrWpdVfSBJEXqEDMCWNU62MLxU7Z9DXnNQyxXdX"
+				"bzz-raw://d046943792918275b34fb015f7784b94e3d4e17546ae4ecd11199afd23e8b094",
+				"dweb:/ipfs/QmUS5zB2aTyad6wjxb56shz5qGZBjTz54GtKTChrZVtKqU"
 			]
 		}
 	},
